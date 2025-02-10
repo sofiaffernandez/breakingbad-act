@@ -1,0 +1,340 @@
+@font-face {
+  font-family: 'Breaking Bad';
+  src: url('../img/BreakingBad.ttf') format('truetype');
+}
+
+body {
+  background: url('../img/fondo.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Breaking Bad', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+}
+
+.poster {
+  width: 700px;
+  height: 300px;
+  border: 10px outset brown;
+  border-radius: 22px;
+  display: block;
+  margin: 20px auto;
+}
+
+.quote{
+  font-size: 40px;
+}
+
+.formularioBody{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+  font-size: 40px;
+}
+
+form {
+  background: rgba(0, 0, 0, 0.63);
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  text-align: left;
+}
+
+fieldset {
+  border: 2px solid white;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+legend {
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+button{
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.buttonGreen {
+  background: green;
+}
+
+.buttonGreen:hover {
+  background: darkgreen;
+}
+
+.buttonRed{
+  background-color: red;
+}
+
+.buttonRed:hover {
+  background: darkred;
+}
+
+input[type="radio"] {
+  vertical-align: left;
+  width: auto;
+}
+
+.inputRadio{
+width: auto;
+display: inline-block;
+}
+
+.tablaBody{
+  background-image: none;
+  background-color: #0c3e11;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.periodicTabla{
+  background-color: rgba(43, 44, 36, 255);
+  border-spacing: 5px;
+  border-collapse: separate;
+}
+
+.elemento{
+  width: 70px;
+  height: 70px;
+}
+
+.elemento .simbolo{
+  font-size: 40px;
+  font-weight: bold;
+  
+}
+
+.elemento .nombre{
+  font-size: 14px;
+
+}
+
+.primeraColumna{
+  background-color: #b3d930;
+}
+
+.white{
+  background-color: #edf8c8;
+}
+
+.morado{
+  background-color: #746094;
+}
+
+.ultimaFila{
+  background-color: #d1ed70;
+}
+.gris{
+  background-color: #bbc4a2;
+}
+
+.verdeOscuro{
+  background-color: #617128;
+}
+
+.verdeAceituna{
+  background-color: #84a619;
+}
+
+.ultimaColumna{
+  background-color: #808e52;
+}
+
+.verdeClaro{
+  background-color: #c1e350;
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 2px;
+}
+div.contenido{
+  margin-top: 20px;;
+}
+.imagenArriba .contenido {
+  margin-top: 0;
+  justify-content: flex-end;
+}
+
+.walter{
+  background-image: url("../img/tabla/walterwhite.png");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.hank{
+  background-image: url("../img/tabla/hankschrader.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hector{
+  background-image: url("../img/tabla/hectorsalamanca.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.tuco {
+  background-image: url("../img/tabla/tucosalamanca.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.gus{
+  background-image: url("../img/tabla/gustavofrink.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.skyler{
+  background-image: url("../img/tabla/skylerwhite.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.marie{
+    background-image: url("../img/tabla/marieschrader.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.saul{
+  background-image: url("../img/tabla/saulgoodman.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.jesse {
+  background-image: url("../img/tabla/jessiepinkman.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.mike{
+  background-image: url("../img/tabla/mike.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.gale {
+  background-image: url("../img/tabla/gale.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.badger {
+  background-image: url("../img/tabla/badger.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.segundaTabla{
+  background-color: rgba(43, 44, 36, 255);
+  border-spacing: 5px;
+  border-collapse: separate;
+}
+
+td.segundaTabla{
+  background-color: #bcc92c;
+}
+
+.autocaravana{
+  background-image: url("../img/tabla/bus.png");
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: 60px auto;
+}
+
+.calzoncillos{
+      background-image: url("../img/tabla/calzoncillos.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 60px auto;
+}
+.ciencia {
+  background-image: url("../img/tabla/pocima.png");
+  background-repeat: no-repeat;
+  background-position: center;
+    background-size: 60px auto;
+}
+
+.mosca {
+  background-image: url("../img/tabla/mosca.png");
+  background-repeat: no-repeat;
+  background-position: center;
+    background-size: 60px auto;
+}
+
+.pizza {
+  background-image: url("../img/tabla/pizza.png");
+  background-repeat: no-repeat;
+  background-position: center;
+    background-size: 60px auto;
+}
+
+.pistola {
+  background-image: url("../img/tabla/pistola.png");
+  background-repeat: no-repeat;
+  background-position: center;
+    background-size: 60px auto;
+}
+
+.movil {
+  background-image: url("../img/tabla/movil.png");
+  background-repeat: no-repeat;
+  background-position: center;
+    background-size: 60px auto;
+}
+
+.meth {
+  background-image: url("../img/tabla/cristal.png");
+  background-repeat: no-repeat;
+  background-position: center;
+    background-size: 60px auto;
+}
+
+.mascara {
+  background-image: url("../img/tabla/mascara.png");
+  background-repeat: no-repeat;
+  background-position: center;
+    background-size: 60px auto;
+}
+
+.plato {
+  background-image: url("../img/tabla/plato.png");
+  background-repeat: no-repeat;
+  background-position: center;
+    background-size: 60px auto;
+}
