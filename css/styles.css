@@ -180,6 +180,7 @@ p{
   background-color: #c1e350;
 }
 
+/* He utilizado flex debido a que creo que es la forma más facil de posicionar los elementos. Estoy acabando el Master de Diseño y Desarrollo Front en la UNIR, solo me falta presentar el TFM, por eso se del uso de flex. Es una forma muy fácil de posicionar el contenido en donde se quiere. También decir que prefiero flex que grid, por eso lo uso.  */
 .contenido{
     display: flex;
     flex-direction: column;
